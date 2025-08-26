@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Intern → Software Developer | LinkedIn Visual</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <div class="frame" id="post">
+    <div class="grid"></div>
+    <div class="code" id="codeLayer"></div>
+
+    <div class="card">
+      <!-- Left section -->
+      <div>
+        <div class="heading">
+          <span class="kicker">CAREER UPDATE</span>
+          <h1>
+            From <span style="color:var(--brand)">Intern</span> to
+            <span style="color:var(--accent-2)">Software Developer</span>
+          </h1>
+        </div>
+
+        <!-- Status + Switcher -->
+        <div class="role">
+          <span class="pill"><span class="dot" id="statusDot"></span> Status: Upgrading</span>
+          <div class="switch" id="switch">
+            <div class="face intern"><span class="tag">v1.0</span>Software Developer Intern</div>
+            <div class="face dev"><span class="tag">v2.0</span>Software Developer Executive</div>
+          </div>
+        </div>
+
+       <!-- Progress -->
+        <div class="progress">
+          <span class="label left">0%</span>
+          <div class="bar">
+            <div class="fill" id="fill">
+              <span id="pct">0%</span>
+            </div>
+          </div>
+          <span class="label right">100%</span>
+        </div>
+
+        <!-- Upgrade Button -->
+        <div class="upgrade-btn">
+          <button id="replay">Click to Upgrade </button>
+        </div>
+      </div>
+
+      <!-- Right section -->
+      <div class="panel">
+        <div class="avatar">
+          <img class="myImage" src="./myImage.jpg" alt="my image">
+          <div class="badge">Promoted ✨</div>
+        </div>
+        <div class="name">Vaishali Sharma</div>
+        <div class="sub">Building with JavaScript • Node • Express •  MongoDB • React • Typescript </div>
+      </div>
+      <div class="footer">
+      <div class="tags">
+        <span class="chip">#CareerUpdate</span>
+        <span class="chip">#SoftwareDeveloper</span>
+        <span class="chip">#FromInternToDev</span>
+        <span class="chip">#WomenInTech</span>
+      </div>
+    </div>
+
+    <div class="confetti" id="confetti"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>
